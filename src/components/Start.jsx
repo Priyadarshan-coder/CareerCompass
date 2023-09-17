@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { startQuiz } from "../redux/action/quizAction";
 const Start = () => {
   const dispatch = useDispatch();
   // const {time} = useSelector(state => state.quizReducer)
-  const [minute, setMinute] = useState(1);
+  const [minute, setMinute] = useState(30);
   const [second, setSecond] = useState(0);
   const [time, setTime] = useState(60);
   const handleQuizStart = () => {
@@ -22,7 +22,7 @@ const Start = () => {
   useEffect(() => {
     console.log(minute);
     console.log(typeof minute);
-    if (minute !== NaN && second !== NaN) {
+    if (minute !== isNaN && second !== isNaN) {
       setTime(minute * 60 + second);
     }
   }, [minute, second]);
@@ -30,28 +30,16 @@ const Start = () => {
     <div className="startBox">
       <div>
         <div>
-          <h1>Start the Quiz</h1>
+          <h1>Start Aptitude Test</h1>
           <p>Good luck!</p>
           <p>Time:&nbsp;&nbsp;{time}sec</p>
           <section>
+          <label htmlFor="">
+  <span className="timeInput">{minute} min</span>
+</label>
             <label htmlFor="">
-              <input
-                type="number"
-                className="timeInput"
-                value={minute}
-                onChange={(e) => setMinute(parseInt(e.target.value))}
-              />
-              min
-            </label>
-            <label htmlFor="">
-              <input
-                type="number"
-                className="timeInput"
-                value={second}
-                onChange={(e) => setSecond(parseInt(e.target.value))}
-              />
-              sec
-            </label>
+  <span className="timeInput">{second} sec</span>
+</label>
           </section>
           <button className="startButton" onClick={handleQuizStart}>
             START

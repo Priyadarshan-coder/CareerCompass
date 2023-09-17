@@ -1,29 +1,104 @@
 {
   "data": [
     {
-      "question": "Which of the following is the major element in earth crust?",
-      "choices": ["Silicon", "Oxygen", "Iron", "Aluminium"],
-      "answer": "Oxygen"
+      "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+      "choices": ["120", "180", "320", "150"],
+      "answer": "150"
     },
     {
-      "question": "Which among the following country is known as “Land of White Elephant”?",
-      "choices": ["India", "Sri Lanka", "UAE", "Thailand"],
-      "answer": "Thailand"
+      "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
+      "choices": ["50", "56", "70", "80"],
+      "answer": "50"
     },
     {
-      "question": "What is the capital of Austria ?",
-      "choices": ["Graz", "Salzburg", "Innsbruck", "Vienna"],
-      "answer": "Vienna"
+      "question": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+      "choices": ["12", "15", "16", "18"],
+      "answer": "15"
     },
     {
-      "question": "The term Ground Stroke is associated with which of the following games?",
-      "choices": ["Cricket", "Badminton", "Tennis", "Draughts"],
-      "answer": "Tennis"
+      "question": "The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum (in Rs.) is:",
+      "choices": ["625", "630", "640", "650"],
+      "answer": "625"
     },
     {
-      "question": "What is the name of the biggest planet in our solar system ?",
-      "choices": ["Mars", "Jupiter", "Earth", "Mercury"],
-      "answer": "Jupiter"
+      "question": "In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?",
+      "choices": ["30", "70", "100", "250"],
+      "answer": "70"
+    },
+    {
+      "question": "The percentage profit earned by selling an article for Rs. 1920 is equal to the percentage loss incurred by selling the same article for Rs. 1280. At what price should the article be sold to make 25% profit?",
+      "choices": ["2000", "2200", "2400", "Data inadequate"],
+      "answer": "2000"
+    },
+    {
+      "question": "Two ships are sailing in the sea on the two sides of a lighthouse. The angle of elevation of the top of the lighthouse is observed from the ships are 30° and 45° respectively. If the lighthouse is 100 m high, the distance between the two ships is:",
+      "choices": ["173", "200", "273", "300"],
+      "answer": "273"
+    },
+    {
+      "question": "From a point P on a level ground, the angle of elevation of the top tower is 30°. If the tower is 100 m high, the distance of point P from the foot of the tower is:",
+      "choices": ["149", "156", "173", "200"],
+      "answer": "173"
+    },
+    {
+      "question": "A can contains a mixture of two liquids A and B is the ratio 7 : 5. When 9 litres of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?",
+      "choices": ["10", "20", "21", "25"],
+      "answer": "21"
+    },
+    {
+      "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.",
+      "choices": ["2 hours", "3 hours", "4 hours", "5 hours"],
+      "answer": "4 hours"
+    },
+    {
+      "question": "A motorboat, whose speed in 15 km/hr in still water goes 30 km downstream and comes back in a total of 4 hours 30 minutes. The speed of the stream (in km/hr) is:",
+      "choices": ["4", "5", "6", "10"],
+      "answer": "5"
+    },
+    {
+      "question": "A tank is filled by three pipes with uniform flow. The first two pipes operating simultaneously fill the tank in the same time during which the tank is filled by the third pipe alone. The second pipe fills the tank 5 hours faster than the first pipe and 4 hours slower than the third pipe. The time required by the first pipe is:",
+      "choices": ["6 hours", "10 hours", "15 hours", "30 hours"],
+      "answer": "15 hours"
+    },
+    {
+      "question": "Two numbers are respectively 20% and 50% more than a third number. The ratio of the two numbers is:",
+      "choices": ["2:5", "3:5", "4:5", "6:7"],
+      "answer": "4:5"
+    },
+    {
+      "question": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity of water to be further added is:",
+      "choices": ["20 litres", "30 litres", "40 litres", "60 litres"],
+      "answer": "60 litres"
+    },
+    {
+      "question": "If 3^(x - y) = 27 and 3^(x + y) = 243, then x is equal to:",
+      "choices": ["0", "2", "4", "6"],
+      "answer": "4"
+    },
+    {
+      "question": "A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of four walls, the volume of the hall is:",
+      "choices": ["720", "900", "1200", "1800"],
+      "answer": "1200"
+    },
+    {
+      "question": "Today is Monday. After 61 days, it will be:",
+      "choices": ["Wednesday", "Saturday", "Tuesday", "Thursday"],
+      "answer": "Saturday"
+    },
+    {
+      "question": "There are two examinations rooms A and B. If 10 students are sent from A to B, then the number of students in each room is the same. If 20 candidates are sent from B to A, then the number of students in A is double the number of students in B. The number of students in room A is:",
+      "choices": ["20", "80", "100", "200"],
+      "answer": "100"
+    },
+    {
+      "question": "Present ages of Sameer and Anand are in the ratio of 5 : 4 respectively. Three years hence, the ratio of their ages will become 11 : 9 respectively. What is Anand's present age in years?",
+      "choices": ["24", "27", "40", "None of these"],
+      "answer": "24"
+    },
+    {
+      "question": "The ratio between the perimeter and the breadth of a rectangle is 5 : 1. If the area of the rectangle is 216 sq. cm, what is the length of the rectangle?",
+      "choices": ["16 cm", "18 cm", "24 cm", "None of these"],
+      "answer": "18 cm"
     }
   ]
 }
