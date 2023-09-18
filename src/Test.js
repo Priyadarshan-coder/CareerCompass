@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import "./Test.css";
 import { useSelector, useDispatch } from "react-redux";
 
 import End from "./components/End";
@@ -9,7 +9,7 @@ import quizData from "./data/quiz.json";
 
 let interval;
 
-const App = () => {
+const Test = () => {
   const dispatch = useDispatch();
   const { step, answers } = useSelector((state) => state?.quizReducer);
   console.log(step);
@@ -23,7 +23,7 @@ const App = () => {
   }, [step]);
 
   return (
-    <div className="App">
+    <div className="Test">
       {step === 1 && <Start />}
       {step === 2 && <Question />}
       {step === 3 && (
@@ -37,4 +37,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Test;

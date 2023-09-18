@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import Test from "./Test";
 import reportWebVitals from "./reportWebVitals";
 
 // redux provider
@@ -16,7 +16,7 @@ let persistor = persistStore(store);
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <App />
+      <Test />
     </PersistGate>
   </Provider>,
   document.getElementById("root")
