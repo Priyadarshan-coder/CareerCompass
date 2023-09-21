@@ -33,6 +33,7 @@ const Question = () => {
     }
   }, [data, activeQuestion]);
   const changeHandler = (e) => {
+   // e.preventDefault();
     setSelected(e.target.value);
     if (error) {
       setError("");
