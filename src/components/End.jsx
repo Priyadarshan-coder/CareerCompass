@@ -7,6 +7,11 @@ import Modal from "./Modal";
 import Trophy from "../assets/images/trophy.png";
 
 const End = () => {
+  
+    const redirectToVidyaBot = () => {
+      window.location.href = 'https://www.google.com';
+    };
+  
   const dispatch = useDispatch();
   const { answers,time } = useSelector((state) => state.quizReducer);
   const [correctAnswers, setCorrectAnswers] = useState(0);
@@ -49,6 +54,10 @@ const End = () => {
         >
           Try again
         </button>
+        <button
+        className="button"
+        style={{ marginLeft: "20px" }}
+        onClick={redirectToVidyaBot}>VidyaBot</button>
       </section>
       <Modal show={modal}>
         <section className="modalBody">
