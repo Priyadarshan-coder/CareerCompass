@@ -9,7 +9,7 @@ import Trophy from "../assets/images/trophy.png";
 const End = () => {
   
     const redirectToVidyaBot = () => {
-      window.location.href = 'https://localhost:8501/';
+      window.location.href = '#';
     };
   
   const dispatch = useDispatch();
